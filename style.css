@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  --cl-1: #d9e1df;
+  --cl-2: #fe958f;
+}
+
+header {
+  display: flex;
+  padding: 1% 10%;
+  gap: 30px;
+  background-color: var(--cl-2);
+}
+
+a {
+  text-decoration: none;
+  color: var(--cl-1);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+a:hover {
+  transform: scale(1.05);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.principal-foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4% 10%;
+  gap: 150px;
+}
+
+.titulo-principal-foto {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: var(--cl-2);
+}
+
+.foto-principal {
+  height: 450px;
+  width: 600px;
+}
+
+.segundo-bloco {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 2% 10%;
+}
+
+.titulo-carta {
+  font-family: "Inter", sans-serif;
+  font-size: 35px;
+  color: var(--cl-2);
+  text-align: center;
+}
+
+.texto-carta {
+  font-family: "Roboto", sans-serif;
+  color: var(--cl-2);
+  text-align: center;
+  font-size: 16px;
+}
+
+.terceiro-bloco {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.titulo-fotos {
+  margin-top: 2%;
+  font-family: "Inter", sans-serif;
+  font-size: 35px;
+  color: var(--cl-2);
+  text-align: center;
+}
+
+.fotos {
+  display: flex;
+  justify-content: space-around;
+  padding: 2% 5%;
+  flex-wrap: wrap;
+}
+
+.fotos img {
+  width: 450px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1% 10%;
+  background-color: var(--cl-2);
+  color: var(--cl-1);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
